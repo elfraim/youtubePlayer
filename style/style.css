@@ -1,10 +1,25 @@
+html body {
+    background-color: #0B132B;
+}
+
+.container {
+    background-color: #3A506B;
+    height: 1000px;
+}
+
 .search-bar {
     margin: 20px;
     text-align: center;
+    background-color: #3A506B;
 }
 
 .search-bar input {
+    padding: 5px 5px;
+    margin-top: 7px;
     width: 75%;
+    background-color:#3A506B;
+    border: 1px solid #5BC0BE;
+    color: #5BC0BE;
 }
 
 .video-item img {
@@ -16,12 +31,20 @@
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    color: white;
+    padding: 10px 10px;
+    margin-bottom: 10px;
 }
 
 .list-group-item {
     cursor: pointer;
+    background-color: #5BC0BE;
+    color: black;
+    margin-bottom: 15px;
 }
 
 .list-group-item:hover {
-    background-color: #eee;
+    background-color: #5BC0BE;
+    color: #6FFFE9;
+    margin-bottom: 1px;
 }
